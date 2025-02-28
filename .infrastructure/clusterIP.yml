@@ -4,7 +4,8 @@ metadata:
   name: todoapp-service
   namespace: todoapp
 spec:
-  selector: todolist
+  selector:
+    name: todolist
   ports:
     protocol: TCP
     port: 80
